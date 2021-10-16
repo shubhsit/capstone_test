@@ -76,7 +76,7 @@ st.write(df)
 # prediction=clf.predict(df)
 # prediction_proba=clf.predict_proba(df)
 df_new= scaler.transform(df)
-loaded_model = joblib.load("/content/drive/MyDrive/capstone/mlp_regressor_grid_search_best_model.h5")
+loaded_model = joblib.load("mlp_regressor_grid_search_best_model.h5")
 y_predx=loaded_model.predict(df_new)
 
 # st.subheader('class label and there corresponding index number ')
