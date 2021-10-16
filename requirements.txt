@@ -2,5 +2,4 @@ joblib
 sklearn 
 streamlit
 pandas
-numpy 
-os
+numpy
