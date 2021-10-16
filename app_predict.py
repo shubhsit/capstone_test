@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 import os
 # prepare train and test dataset
 # Read dataset
-demand_df = pd.read_csv('/content/Daily_Demand_Forecasting_Orders.csv', sep=';')
+demand_df = pd.read_csv('Daily_Demand_Forecasting_Orders.csv', sep=';')
 
 n_train = 48
 X = demand_df.iloc[:,[0,1,2,3,4,5,6,7,8,9,10,11]].values
